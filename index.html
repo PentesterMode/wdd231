@@ -3,8 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autism Awareness - Welcome</title>
+    <title>Harare Chamber of Commerce</title>
+     <meta name="description"
+      content="This webpage is about the Harare Chamber of Commerce.">
+    <meta name="author" content="Harare Chamber of Commerce">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width:768px)">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/n.js" defer></script>
 </head>
 <body>
-    <h1>Trish</h1>
+    <header>
+       <div class="header-top">
+        <img src="images\logo.svg" alt="Site Logo" class="logo">
+        <span class="site-name">Trish Chibira</span>
+        <img src="images\hamburger.svg" alt="Menu Icon" id="menu-button">
+       </div>
+       <div class="header-bottom">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="final/index.html">Final</a>
+        </nav>
+        </div>
+
+    </header>
+    <main>
+       <h1>Home</h1>  
+      <div class="profile-container">
+         <section class="about">
+            <h2> About Me</h2>
+            <p>My name is Trish Chibira. I am a software development student with strong prospects in Penetration testing. I stated of by doing Ciscos Junior CyberSecurity Analyst Pathway, then i went ahead to do pre-security with Try Hack Me. I am still in the journey and because i love to learn i will continue learning until i am a Senior Pentester. An asset in the security industry.</p>
+        </section>
+
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/trish.webp" alt="Students Image" width="200" height="200">
+        </section>
+
+        
+        
+
+      </div>
+    
+
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div class="course-list">
+                <div class="course-card">WDD 130</div>
+                <div class="course-card">WDD 131</div>
+                <div class="course-card">WDD 231</div>
+            </div>
+
+        </section>
+        <p id="total-credits">Total Credits: <span id="credit-count">0</span></p>
+
+        
+
+    </main>
+    <footer>
+        <div class="socialinks">
+            <a href="https://github.com/PentesterMode" target="blank">
+                <img src="images/github.svg" alt="Github Profile">
+            </a>
+
+            <a href="https://linkedIn.com/Trish-Chibira" target="blank">
+                <img src="images/linkedin.svg" alt="LinkedIn Profile">
+            </a>
+
+            <a href="https://twitter.com/Trish-Chibira" target="blank">
+                <img src="images/twitter.svg" alt="Twitter Profile">
+            </a>
+
+            <a href="https://whatsapp.com/+263785086782" target="blank">
+                <img src="images/whatsapp.svg" alt="Whatsapp Profile">
+            </a>
+            
+        </div>
+
+         <p>©️ <span id="currentyear"></span> Trish Chibira | Harare  | WWD 231</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
 </body>

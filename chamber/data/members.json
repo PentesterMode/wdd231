@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "Harare Tech Hub",
+            "address" : "14 Samora Machel Avenue, Harare",
+            "phone" : "+263 242 701 122",
+            "website" : "http://hararetechub.co.zw",
+            "image" : "member1.webp",
+            "membershipLevel" : 3,
+            "industry" : "Information Technology"
+        },
+
+         {
+            "name": "Zambezi Roast Coffee",
+            "address" : "88 Enterprise Rd, Highland, Harare",
+            "phone" : "+263 242 701 301",
+            "website" : "http://zambeziroast.co.zw",
+            "image" : "member2.webp",
+            "membershipLevel" : 2,
+            "industry" : "Hospitaity & Food"
+        },
+
+         {
+            "name": "Msasa Green Logistics",
+            "address" : "22 Mutare Rd, Msasa Harare",
+            "phone" : "+263 242 486 303",
+            "website" : "http://msasalogistic.co.zw",
+            "image" : "member3.webp",
+            "membershipLevel" : 3,
+            "industry" : "Supply Chain & Transport"
+        },
+
+         {
+            "name": "Kariba Solar Solution",
+            "address" : "51 Borrowdale Rd, Borrowdale Harare",
+            "phone" : "+263 242 701 144",
+            "website" : "http://karibasolar.co.zw",
+            "image" : "member4.webp",
+            "membershipLevel" : 2,
+            "industry" : "Renewable Energy"
+        },
+
+         {
+            "name": "Savanna Design Studio",
+            "address" : "10 Avondale Shopping Center, Harare",
+            "phone" : "+263 242 309 128",
+            "website" : "http://savannadesign.co.zw",
+            "image" : "member5.webp",
+            "membershipLevel" : 1,
+            "industry" : "Creative Apparel"
+        },
+
+         {
+            "name": "Highveld Finacial Partners",
+            "address" : "30 Jason Moyo Avenue, Harare",
+            "phone" : "+263 242 800 185",
+            "website" : "http://highveldfinance.co.zw",
+            "image" : "member1.webp",
+            "membershipLevel" : 3,
+            "industry" : "Banking and Finance"
+        },
+
+         {
+            "name": "Chisipite Wellness Clinic",
+            "address" : "19 Hindhead Avenue Chisipite, Harare",
+            "phone" : "+263 242 490 225",
+            "website" : "http://chisipitewellness.co.zw",
+            "image" : "member1.webp",
+            "membershipLevel" : 3,
+            "industry" : "Health and Science"
+        }
+
+
+
+    ]
+}

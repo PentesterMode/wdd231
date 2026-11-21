@@ -1,0 +1,42 @@
+@media (min-width:768px){
+    #menu-button {
+        display: none;
+    }
+    nav{
+        display: block;
+        width: auto;
+        margin-top: 0;
+    }
+    nav ul {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    #member-container.list .member-card {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1.5fr 2fr 1fr;
+        align-items: center;
+        gap: 1rem;
+
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding:2rem;
+    }
+    .homegrid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .spotlights-card{
+        grid-column: span 2;
+    }
+    #spotlight-container{
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+        gap: 1rem;
+    }
+    .spotlight-card{
+        margin-bottom: 0;
+    }
+}

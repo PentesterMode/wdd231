@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harare Chamber of Commerce</title>
+     <meta name="description"
+      content="This webpage is about the Harare Chamber of Commerce.">
+    <meta name="author" content="Harare Chamber of Commerce">
+
+    <link rel ="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width:768px)">
+
+    <script src="script/directory.js" defer></script>
+
+    <meta property="og:title" content="Chamber Directory | Business Directory">
+    <meta property="og:description" content="Explore local businesses and professional members of the Harare Chambers of Commerce.">
+    <meta property="og:url" content="https://pentester-mode.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content= "https://pentester-mode.github.io/wdd231/chamber/images/chamber-og.jpg">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-brand">
+             <img src="# ">
+             <div>
+                <span class="site-title">Harare</span>
+                <span class="site-subtitile">Chamber of Commerce</span>
+             </div>
+            
+        </div>
+        <button id="menu-button" aria-label="Toggle Navigation">&#9776;</button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="view-controls">
+            <button id="grid-btn" class="active" aria-label="Grid View">Grid View</button>
+            <button id="list-btn" aria-label="List View">List View</button>
+
+        </div>
+        <section id="member-container" class="grid">
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Harare Chamber of Commerce</strong></p>
+            <p>150 Samora Machel Avenue, Harare, Zimbabwe</p>
+            <p>info@hararechamber.co.zw | +263 242 700 000</p>
+        </div>
+        <div class="footer-social">
+            <a href="http://facebook.com" target="blank" rel="noopener">Facebook</a>
+            <a href="http://linkedin.com" target="blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="footer-meta">
+            <p>WDD Class Project</p>
+            <p>Trish Chibira</p>
+            <p>&copy; <span id="current-year"></span>Harare Chamber of Commerce</p>
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+</body>
+</html>
